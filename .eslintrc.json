@@ -1,0 +1,43 @@
+{
+    "env": {
+        "node": true,
+        "jest": true,
+        "es2020": true
+    },
+    "extends": [
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig-lint.json",
+      "tsconfigRootDir": "."
+    },
+    "rules": {
+        "callback-return": "off",
+        "complexity": [
+            "error",
+            { "max": 6 }
+        ],
+        "no-undef": "off",
+        "no-undefined": "off",
+        "no-unused-vars": "off",
+        "no-unreachable": "error",
+        "no-warning-comments": "off",
+        "eqeqeq": ["error", "always", { "null": "ignore" }],
+        "padding-line-between-statements": "off",
+        "no-void": ["error", { "allowAsStatement": true }],
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/no-unsafe-member-access": "off",
+        "@typescript-eslint/no-unsafe-call": "off",
+        "@typescript-eslint/restrict-template-expressions": "off",
+        "@typescript-eslint/no-floating-promises": ["error", { "ignoreVoid": true }],
+        "@typescript-eslint/interface-name-prefix": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-empty-pattern": "off",
+        "no-throw-literal": "off",
+        "@typescript-eslint/no-throw-literal": ["off"],
+        "import/prefer-default-export": "off",
+        "valid-typeof": "error"
+    }
+}

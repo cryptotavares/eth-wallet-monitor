@@ -1,0 +1,10 @@
+test
+.github
+.npmrc
+.nvmrc
+tsconfig.json
+tsconfig-lint.json
+coverage
+.eslintrc.json
+.editorconfig
+jest.config.ts

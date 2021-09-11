@@ -1,0 +1,7 @@
+node_modules
+
+lib/*
+!lib/.gitkeep
+
+coverage
+.nyc_output
