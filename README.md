@@ -1,3 +1,6 @@
+cbowREADME.md
+
+
 # eth-wallet-monitor
 An abstraction on top of [web3.js](https://github.com/ChainSafe/web3.js) that allows anyone to subscribe to ethereum wallets events (be it a smart contract or an personal wallet).
 
